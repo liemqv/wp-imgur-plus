@@ -1,7 +1,11 @@
-# WP Imgur
+# Imgur Plus Wordpress Plugin
 
-Image CDN Plugin that serves your Media Library from Imgur.com.
+Description: Plugin based in WP Imgur, allows to upload to Imgur the Images from Wordpress.
 
-[![Build Status](https://travis-ci.org/dsawardekar/wp-imgur-plus.svg?branch=develop)](https://travis-ci.org/dsawardekar/wp-imgur-plus)
-[![Code Coverage](https://coveralls.io/repos/dsawardekar/wp-imgur-plus/badge.png?branch=develop)](https://coveralls.io/r/dsawardekar/wp-imgur-plus?branch=develop)
-[![Code Quality](https://scrutinizer-ci.com/g/dsawardekar/wp-imgur-plus/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/dsawardekar/wp-imgur-plus/?branch=develop)
+Featured
+----------
+- Changes image url from all website to imgur.
+- Save bandwith and space.
+- All the images can be removed from the server and images will still work
+
+
