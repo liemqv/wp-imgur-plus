@@ -40,6 +40,8 @@ msgstr ""
 "You only need to do this the first time that you install WP-Imgur. All "
 "subsequent media uploads are automatically synced to the Imgur servers when "
 "you upload images via the Media Uploader."
+"If you have problems importing the media or you want to import a lot of "
+"files, search WP Imgur Plus Importer Add-On in wordpress"
 
 #: lib/WpImgur/PluginMeta.php:49
 msgid "help.sync-active"
@@ -70,19 +72,19 @@ msgstr "Authorize"
 #: lib/WpImgur/PluginMeta.php:57
 msgid "section.auth.verifypin"
 msgstr ""
-"Before you begin using WP Imgur, you need to grant it permissions to upload "
+"Before you begin using WP Imgur Plus, you need to grant it permissions to upload "
 "media to your Imgur Account. Click the <em>authorize</em> button to proceed."
 
 #: lib/WpImgur/PluginMeta.php:58
 msgid "section.auth.authorized"
 msgstr ""
-"WP Imgur is authorized to upload images to your <a href=\"http://imgur.com"
+"WP Imgur Plus is authorized to upload images to your <a href=\"http://imgur.com"
 "\">Imgur</a> account in <em>{{uploadMode}}</em> mode</a>."
 
 #: lib/WpImgur/PluginMeta.php:59
 msgid "section.auth.unauthorized"
 msgstr ""
-"Before you begin using WP Imgur, you need to grant it permissionsto upload "
+"Before you begin using WP Imgur Plus, you need to grant it permissionsto upload "
 "media to your Imgur Account. Click the <em>authorize</em> button toproceed."
 
 #: lib/WpImgur/PluginMeta.php:60
@@ -96,7 +98,7 @@ msgstr "Media Uploader Integration"
 #: lib/WpImgur/PluginMeta.php:63
 msgid "section.mediaintegration.help"
 msgstr ""
-"WP Imgur can auto sync any new images you upload or edit in WordPress. You "
+"WP Imgur Plus can auto sync any new images you upload or edit in WordPress. You "
 "can change this behaviour below."
 
 #: lib/WpImgur/PluginMeta.php:64

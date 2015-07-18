@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Imgur Plus
-Description: Serves your Media Library from imgur.com, changes the library to Imgur and save space in the hard drive! Based in wp-imgur-plus-plus plugin.
+Plugin Name: WP Imgur Plus
+Description: Serves your Media Library from imgur.com, changes the library to Imgur and save space in the hard drive! Based in WP Imgur plugin.
 Version: 1.0
-Author: Carlos Escobar
+Author: Weblabor
 Author URI: http://www.weblabor.mx
 License: GPLv2
 */
@@ -25,7 +25,12 @@ wp_imgur_plus_main();
 add_filter( 'wp_get_attachment_url', 'changeURL' );
 
 function changeURL( $value ) {
-	$value = str_replace(get_site_url(), "http://i.imgur.com", $value);
-	$value = str_replace("wp-content/uploads/", "", $value);
-	return $value;
+	$orvalue = $value;
+	$value = str_replace(get_site_url(), "", $value);
+	$value = str_replace("/wp-content/uploads/", "", $value);
+	if (substr_count($value, "/")<=0) {
+		$value = "http://i.imgur.com/".$value;
+		return $value;
+	}
+	return $orvalue;	
 }

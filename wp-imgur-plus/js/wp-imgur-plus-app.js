@@ -1427,7 +1427,7 @@
       var buffer = '', stack1, helper, options, escapeExpression=this.escapeExpression, helperMissing=helpers.helperMissing;
 
 
-      data.buffer.push("<h2 class=\"nav-tab-wrapper\">\n  <span>WP Imgur</span>\n  ");
+      data.buffer.push("<h2 class=\"nav-tab-wrapper\">\n  <span>WP Imgur Plus</span>\n  ");
       data.buffer.push(escapeExpression(helpers.view.call(depth0, "tabbar", {hash:{
         'content': ("pages.labels"),
         'selectedIndex': ("pages.selectedPage"),
