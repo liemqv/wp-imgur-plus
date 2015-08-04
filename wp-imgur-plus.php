@@ -21,13 +21,12 @@ function wp_imgur_plus_main() {
 
 wp_imgur_plus_main();
 
-// Add your code and snippets below
-add_filter( 'wp_get_attachment_url', 'changeURL' );
+add_filter( 'wp_get_attachment_url', 'wpip_changeURL' );
 
-function changeURL( $value ) {
+function wpip_changeURL( $value ) {
+	$upload_dir = wp_upload_dir(); 
 	$orvalue = $value;
-	$value = str_replace(get_site_url(), "", $value);
-	$value = str_replace("/wp-content/uploads/", "", $value);
+	$value = str_replace($upload_dir['baseurl']."/", "", $value);
 	if (substr_count($value, "/")<=0) {
 		$value = "http://i.imgur.com/".$value;
 		return $value;
