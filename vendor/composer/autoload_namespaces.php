@@ -8,5 +8,5 @@ $baseDir = dirname($vendorDir);
 return array(
     'Valitron' => array($vendorDir . '/vlucas/valitron/src'),
     'Twig_' => array($vendorDir . '/twig/twig/lib'),
-    'Requests' => array($vendorDir . '/rmccue/requests/library'),
+    //'Requests' => array($vendorDir . '/rmccue/requests/library'),
 );
